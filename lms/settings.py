@@ -33,8 +33,6 @@ ALLOWED_HOSTS = ['lms-backend-d3vmast3rs.herokuapp.com', '127.0.0.1']
 INSTALLED_APPS = [
       'rest_framework',
     'library.apps.LibraryConfig',
-    'head.apps.HeadConfig',
-    'student.apps.StudentConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
